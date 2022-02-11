@@ -1,0 +1,27 @@
+body {
+background: url(https://media.nationalgeographic.org/assets/photos/380/216/1c9ab248-0c9c-413d-b0c8-ce8aec56b821.jpg) center center  no-repeat;
+background-position: center center;
+height: 100vh; 
+margin: 0;
+
+
+
+background-size:cover; 
+}
+.content{
+    height:100nvh;
+    display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+
+
+@media (max-width: 813px){
+.call-to-action h1 {
+    font-size: 80px;
+
+}
+
+} 

@@ -59,10 +59,14 @@ h2 {
       text-align: center;
 }
 
-.c1{
-
+.wheel {
   display:block;
   position:absolute;
+}
+
+.c1{
+
+
   top:630px;
   
   height:100px;
