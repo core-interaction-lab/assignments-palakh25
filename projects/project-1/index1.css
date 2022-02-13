@@ -33,11 +33,11 @@ body{
     display:block;
     position:absolute;
     top:570px;
-    left:120px;
-    
+    left:600px;
+    margin:20px;
       color:black;
       text-align: center;
-      font-size:  30pt;
+      font-size:  25pt;
       font-family: 'Roboto', sans-serif;
 
 
@@ -46,12 +46,15 @@ body{
   img{
     display:block;
     position:absolute;
-    top:520px;
-    left:10px;
-    
+    top:550px;
+    left:50px;
+    height:500px;
+    width:500px;
+    border-radius:500px;
 
-      z-index: -1;
-      opacity:70%;
+
+      
+      
 
 
   }
@@ -87,8 +90,34 @@ body{
     
       color:black;
       text-align: center;
-      font-size:  20pt;
+      font-size:  40pt;
       font-family: 'Roboto', sans-serif;
 
   }
+
+.title{
+  display:block;
+  position:absolute;
+  top:1570px;
+  left:120px;
+  text-align: center;
+    color:#E90183;
+    text-align: center;
+    font-size:  50pt;
+    font-family: 'Abril Fatface', cursive;
+
+}
+.introduction{ 
+
+  display:block;
+  position:absolute;
+  top:1770px;
+  left:100px;
+  
+    color:#E90183;
+    text-align: center;
+    font-size:  40pt;
+    font-family: 'Roboto', sans-serif;
+
+}
 
