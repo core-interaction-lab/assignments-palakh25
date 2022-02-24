@@ -1,0 +1,81 @@
+
+.color-meaning {
+   display:flex;
+
+    margin: 0;
+    padding: 5px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0.5px;
+
+  }
+  
+  .color-meaning > h1, .colors {
+    margin: 10px;
+    padding: 5px;
+   
+
+  }
+  
+  .colors {
+      display:flex;
+    background: white;
+    flex-direction: column ;
+    align-items:flex-start;
+   
+  }
+  
+  .colors > h2, p {
+      display: flex;
+    margin: 4px;
+    font-size: 90%;
+   
+    align-items:flex-start;
+  }
+
+
+
+
+.p{
+    align-items:flex-start;
+}
+
+ #red{
+
+background-color:red;
+
+ }
+ #orange{
+
+    background-color:orange;
+    
+     }
+    
+ 
+
+
+ #yellow{
+
+    background-color:yellow;
+    
+     }
+     #green{
+
+        background-color:green;
+        
+         }
+         #blue{
+
+            background-color:blue;
+            
+             }
+             #purple{
+
+                background-color:purple;
+                
+                 }
+                h1{
+                    font-family: 'Anton', sans-serif;
+                    font-size: 90%;
+
+                }
