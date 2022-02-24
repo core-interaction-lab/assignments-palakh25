@@ -1,0 +1,30 @@
+body {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+.primary-header {
+    display: flex;
+}
+.color-schemes {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+  }
+  
+  .color-schemes > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+  }
+  
+  .types {
+    background: pink;
+  }
+  
+  .types > h2, p {
+    margin: 4px;
+    font-size: 90%;
+  }
