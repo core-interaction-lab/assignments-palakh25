@@ -1,3 +1,27 @@
+.primary-header {
+     font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+ 
+ 
+     margin: 0;
+     padding: 5px;
+   
+ 
+ 
+   }
+   h1{
+
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 50px;
+  }
+   .menu{
+    display:flex;
+    flex-direction:column;
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+   }
+
+
 
 .color-meaning {
    display:flex;
@@ -8,7 +32,10 @@
     border-color: black;
     border-width: 0.5px;
 
+
   }
+
+  
   
   .color-meaning > h1, .colors {
     margin: 10px;
@@ -16,6 +43,7 @@
    
 
   }
+
   
   .colors {
       display:flex;
@@ -42,12 +70,12 @@
 
  #red{
 
-background-color:red;
+background-color:hsla(0, 100%, 50%, 1);
 
  }
  #orange{
 
-    background-color:orange;
+    background-color:hsla(17, 100%, 50%, 1);
     
      }
     
@@ -56,26 +84,22 @@ background-color:red;
 
  #yellow{
 
-    background-color:yellow;
+    background-color:hsla(58, 100%, 50%, 1);
     
      }
      #green{
 
-        background-color:green;
+        background-color:hsla(118, 100%, 50%, 1);
         
          }
          #blue{
 
-            background-color:blue;
+            background-color:hsla(235, 100%, 50%, 1);
             
              }
              #purple{
 
-                background-color:purple;
+                background-color:hsla(266, 100%, 50%, 1);
                 
                  }
-                h1{
-                    font-family: 'Anton', sans-serif;
-                    font-size: 90%;
-
-                }
+              
