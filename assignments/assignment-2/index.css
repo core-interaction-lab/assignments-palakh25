@@ -47,12 +47,26 @@ position:absolute;
 top:10px;
 left:50px;
 }
-
-ul{
-position:absolute;
-top:50px;
+.primary-header{
 
   display:flex;
+  flex-flow: column-reverse;
+  flex-basis:50px;
+flex-direction: row;
+}
+.menu {
+  display: flex;
+  align-items: center;}
+  
+.menu ul{
+  display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+position:absolute;
+top:80px;
+
+
+  
 }
 img{
   position:absolute;
@@ -81,6 +95,7 @@ img{
   
   .types {
     display:flex;
+   
     background: white;
 
   }
