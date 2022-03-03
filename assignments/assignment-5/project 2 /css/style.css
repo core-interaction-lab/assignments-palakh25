@@ -25,8 +25,9 @@ animation: mymove 15s ;
 
     color:#0F00FF;
     display:flex;
-    flex-direction: column;
-    text-align: center;
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .box_item{
