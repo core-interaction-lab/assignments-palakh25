@@ -5,8 +5,8 @@ margin:75px 0;
 
 }
 .box_item{
-    width: 100px;
-    height:100px;
+    width: 200px;
+    height:700px;
     background-color: green;
     display: flex;
     align-items: center;
