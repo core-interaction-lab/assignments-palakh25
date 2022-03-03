@@ -3,10 +3,30 @@ body{
     height:100vw;
     margin:0;
 }
+path {
+    transform: translateY(2px);
+  }
+  
+ path {
+    animation-name: wiggleWiggle;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes wiggleWiggle {
+    20%,
+    100% {
+      transform: translate(0, 2px);
+    }
+  
+    0% {
+      transform: translate(0, 0px);
+    }
+    10% {
+      transform: translate(0, 2px);
+    }
+  }
 
-
-
-    .pink {
-        
-        transition: all .2s ease-in-out; }
-.pink:hover { transform: scale(1.1); }
+#SVGID_x5F_00000041996793466877656170000015423686155281482400_x5F_{
+    animation-delay: 0.1s;
+}
