@@ -25,7 +25,7 @@ animation: mymove 15s ;
 .box_item{
     width: 200px;
     height:700px;
-    background-color: green;
+    
     display: flex;
     align-items: center;
     justify-content: center;
