@@ -21,6 +21,13 @@ animation: mymove 15s ;
 
 }
 
+.container{
+
+    color:#0F00FF;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
 
 .box_item{
     width: 200px;
