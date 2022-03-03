@@ -1,0 +1,36 @@
+body{
+ display: flex;
+ justify-content: ccenter; 
+margin:75px 0;
+
+}
+.box_item{
+    width: 700px;
+    height:700px;
+    background-color:red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding: 20px;
+
+
+}
+
+.box_item:hover{
+
+    font-size: 0;
+
+
+
+}
+
+.box_item:hover::after{
+    content: attr(data-hover);
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 200;
+    text-align: center;
+    
+
+
+}

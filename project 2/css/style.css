@@ -1,0 +1,25 @@
+body {
+    
+    margin:0;
+padding:0;
+background: black;
+color:white;
+
+animation: mymove 5s infinite;
+}
+
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+  to{ background-color: pink;}
+  to {background-color: green;}
+  to{background-color: purple;}
+
+
+
+}
+
+
+
+
+

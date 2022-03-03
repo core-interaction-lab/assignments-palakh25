@@ -1,13 +1,56 @@
 body{
-    margin:0;
-    padding:0;
-    background: black;
+  
+    background: red;
     color:white;
 /* box-sizing: border-box */
 
 /* include border width in calculation, put border inside not outside */
+animation: mymove 5s infinite;
 }
 
+@keyframes mymove {
+  from {background-color: red;}
+  to {background-color: blue;}
+  to{ background-color: pink;}
+  to {background-color: green;}
+  to{background-color: purple;}
+
+
+
+}
+
+
+.container{
+text-align: center;
+
+
+color:black;
+position:absolute;
+padding: auto;
+
+
+
+
+}
+
+.content{
+    font-size:24px;
+position:absolute;
+top:0px;
+left:45%;
+}
+
+h1:hover{
+
+}
+
+
+
+
+
+
+
+/* 
 i{ 
     font-style:normal; 
 
@@ -23,7 +66,7 @@ img{
     box-sizing: border-box;
     margin: 25px auto;
       /* auto center aligns the object  */
-text-align: center;
+/* text-align: center;
 
 }
 .primary-header img{
@@ -78,10 +121,10 @@ margin:0;
     font-size:14px;
     color: white;
     border:none;
-    text-transform:uppercase;
+    text-transform:uppercase; */
 
 
-}
+
 .social-nav{
     max-width: 335px;
     width:100%;
@@ -143,7 +186,7 @@ margin:0;
 
 
 }
-}
+} 
 
 
 
