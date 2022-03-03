@@ -1,9 +1,27 @@
 body{
  display: flex;
  justify-content: center; 
-margin:75px 0;
+margin: 75px 0;
+
+background: white;
+
+
+animation: mymove 15s ;
+}
+
+@keyframes mymove {
+    0% {background-color: white;}
+  15% {background-color: #F900E3;}
+  30% {background-color: #0F00FF;}
+  45%{ background-color: #55FF00;}
+  60% {background-color: #00FFF0;}
+75%{background-color:  #9721FF;}
+  100%{background-color:  #FF8300;}
+
 
 }
+
+
 .box_item{
     width: 200px;
     height:700px;
