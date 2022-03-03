@@ -24,17 +24,22 @@ animation: mymove 15s ;
 .container{
 
     color:#0F00FF;
-    display:block;
+    display:flex;
+   flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 400px;
+    height:600px;
 }
 
 .box_item{
     width: 200px;
     height:700px;
     
-    display: flex;
-    align-items: center;
-    justify-content: center;
-padding: 20px;
+    display:flex;
+    flex-direction: column;
+     flex-wrap: wrap;
+
 
 
 }
