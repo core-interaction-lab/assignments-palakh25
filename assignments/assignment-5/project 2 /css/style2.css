@@ -3,30 +3,23 @@ body{
     height:100vw;
     margin:0;
 }
-path {
-    transform: translateY(2px);
-  }
-  
- path {
-    animation-name: wiggleWiggle;
-    animation-duration: 2.5s;
+svg {
+    animation-name: example;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
     animation-iteration-count: infinite;
+    animation-direction: alternate;
   }
   
-  @keyframes wiggleWiggle {
-    20%,
-    100% {
-      transform: translate(0, 2px);
-    }
-  
-    0% {
-      transform: translate(0, 0px);
-    }
-    10% {
-      transform: translate(0, 2px);
-    }
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
   }
 
-#SVGID_x5F_00000041996793466877656170000015423686155281482400_x5F_{
-    animation-delay: 0.1s;
-}
+
+  
+ 
