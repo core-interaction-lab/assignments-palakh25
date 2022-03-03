@@ -3,7 +3,7 @@ body{
     height:100vw;
     margin:0;
 }
-svg {
+path {
     animation-name: example;
     animation-duration: 5s;
     animation-timing-function: linear;
