@@ -4,19 +4,9 @@ body{
     margin:0;
 }
 
-.curved{
-    background:  red;
-    color: white;
-    text-align: center;
 
-}
-.curved h1{
-    font-size: 50px;
 
-}
-.curved p{ 
-
-font-size: 24px;
-
-}
-
+    .pink {
+        
+        transition: all .2s ease-in-out; }
+.pink:hover { transform: scale(1.1); }
