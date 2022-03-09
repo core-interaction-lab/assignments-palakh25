@@ -1,0 +1,490 @@
+
+body{
+    background-color: black;
+}
+
+.heading{
+  margin-top: 200px;
+  font-size: large;
+text-align: center;
+}
+
+.cards {
+   
+   width: 400px;
+    height: 600px;
+    border-width: 2px;
+    border-radius: 20px;
+margin-top: 50px;
+margin-left: 140px;
+
+}
+
+
+
+#card1{
+    position: absolute;
+    margin-top:270px;
+    margin-left: 200px;
+    transform: rotate(-25deg);
+   background: linear-gradient(to top, #B300CF 0%, #CF1512 100%);
+ 
+   animation-name: c1;
+  animation-duration: 2s;
+  
+}
+
+@keyframes c1{
+  from {opacity:0.3}
+  to {opacity:1}
+}
+
+#paragraph1{
+    display:none;
+    position:fixed;
+    padding: 40px; 
+    width: 300px;
+    height: 500px;
+justify-content: center;
+text-align: center;
+font-size: 17px;
+z-index: 20;
+border-color: wheat;
+border-width: 4px;
+border-style: double;
+border-radius: 20px;
+margin: 10px;
+}
+
+
+#card2{
+    position: absolute;
+    margin-top:240px;
+    margin-left: 300px;
+    transform: rotate(-13deg);
+    background: linear-gradient(to top, #B300CF 0%, #CF199E 100%);
+    animation-name: c2;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    opacity:0;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes c2{
+    from {opacity:0}
+    to {opacity:1}
+  }
+#paragraph2{
+    display:none;
+    position:fixed;
+    padding: 40px; 
+    width: 300px;
+    height: 500px;
+justify-content: center;
+text-align: center;
+font-size: 17px;
+border-color: wheat;
+border-width: 4px;
+border-style: double;
+border-radius: 20px;
+margin: 10px;
+
+
+
+z-index: 18;
+}
+#card3{
+    position: absolute;
+    margin-top:220px;
+    margin-left: 400px;
+    transform: rotate(-5deg);
+    background: linear-gradient(to top, #B300CF 0%, #1540CF 100%);
+    animation-name: c3;
+    animation-duration: 2s;
+    animation-delay: 6s;
+    opacity:0;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes c3{
+    from {opacity:0}
+    to {opacity:1}
+  }
+
+#paragraph3{
+    display:none;
+    position:fixed;
+    padding: 40px; 
+    width: 300px;
+    height: 500px;
+justify-content: center;
+text-align: center;
+font-size: 17px;
+border-color: wheat;
+border-width: 4px;
+border-style: double;
+border-radius: 20px;
+margin: 10px;
+
+
+
+z-index: 17;
+}
+#card4{
+    position: absolute;
+    margin-top:225px;
+    margin-left: 480px;
+    transform: rotate(0deg);
+    background: linear-gradient(to top, #3011CF 0%, #04CFC1 100%);
+    animation-name: c4;
+    animation-duration: 2s;
+    animation-delay: 8s;
+    opacity:0;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes c4{
+    from {opacity:0}
+    to {opacity:1}
+  }
+
+#paragraph4{
+    display:none;
+    position:fixed;
+
+
+    padding: 40px; 
+    width: 300px;
+    height: 500px;
+justify-content: center;
+text-align: center;
+font-size: 17px;
+z-index: 16;
+border-color: wheat;
+border-width: 4px;
+border-style: double;
+border-radius: 20px;
+margin: 10px;
+}
+#card5{
+    position: absolute;
+    margin-top:225px;
+    margin-left: 560px;
+    transform: rotate(4deg);
+    background: linear-gradient(to top, #B300CF 0%, #04CFC1 100%);
+    animation-name: c5;
+    animation-duration: 2s;
+    animation-delay: 10s;
+    opacity:0;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes c5{
+    from {opacity:0}
+    to {opacity:1}
+  }
+
+#paragraph5{
+    display:none;
+    position:fixed;
+
+    padding: 40px; 
+    width: 300px;
+    height: 500px;
+justify-content: center;
+text-align: center;
+font-size: 17px;
+z-index: 15;
+border-color: wheat;
+border-width: 4px;
+border-style: double;
+border-radius: 20px;
+margin: 10px;
+}
+
+
+#card6{
+    position: absolute;
+    margin-top:230px;
+    margin-left: 600px;
+    transform: rotate(10deg);
+    background: linear-gradient(to top, #FFC830 0%, #AC00CF 100%);
+    animation-name: c6;
+    animation-duration: 2s;
+    animation-delay: 12s;
+    opacity:0;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes c6{
+    from {opacity:0}
+    to {opacity:1}
+  }
+
+
+#paragraph6{
+    display:none;
+    position:fixed;
+
+
+    padding: 40px; 
+    width: 300px;
+    height: 500px;
+justify-content: center;
+text-align: center;
+font-size: 17px;
+z-index: 14;
+border-color: wheat;
+border-width: 4px;
+border-style: double;
+border-radius: 20px;
+margin: 10px;
+}
+
+
+#card7{
+    position: absolute;
+    margin-top:240px;
+    margin-left: 660px;
+    transform: rotate(17deg);
+    background: linear-gradient(to top, #FFC830 0%, #CF0A66 100%);
+    animation-name: c7;
+    animation-duration: 2s;
+    animation-delay: 14s;
+    opacity:0;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes c7{
+    from {opacity:0}
+    to {opacity:1}
+  }
+
+#paragraph7{
+    display:none;
+    position:fixed;
+
+    padding: 40px; 
+    width: 300px;
+    height: 500px;
+justify-content: center;
+text-align: center;
+font-size: 17px;
+z-index: 13;
+border-color: wheat;
+border-width: 4px;
+border-style: double;
+border-radius: 20px;
+margin: 10px;
+}
+#card8{
+    position: absolute;
+    margin-top:250px;
+    margin-left: 700px;
+    transform: rotate(22deg);
+    background: linear-gradient(to top, #05E6FF 0%, #00CF61 100%);
+    animation-name: c8;
+    animation-duration: 2s;
+    animation-delay: 16s;
+    opacity:0;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes c8{
+    from {opacity:0}
+    to {opacity:1}
+  }
+
+#paragraph8{
+    display:none;
+    position:fixed;
+
+    padding: 40px; 
+    width: 300px;
+    height: 500px;
+justify-content: center;
+text-align: center;
+font-size: 17px;
+z-index: 12;
+border-color: wheat;
+border-width: 4px;
+border-style: double;
+border-radius: 20px;
+margin: 10px;
+}
+#card9{
+    position: absolute;
+    margin-top:280px;
+    margin-left: 730px;
+    transform: rotate(28deg);
+    background: linear-gradient(to top, #DE08FF 0%, #CF0000 100%);
+    animation-name: c9;
+    animation-duration: 2s;
+    animation-delay: 18s;
+    opacity:0;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes c9{
+    from {opacity:0}
+    to {opacity:1}
+  }
+
+#paragraph9{
+    display:none;
+    position:fixed;
+
+    padding: 40px; 
+    width: 300px;
+    height: 500px;
+justify-content: center;
+text-align: center;
+font-size: 17px;
+z-index: 11;
+border-color: wheat;
+border-width: 4px;
+border-style: double;
+border-radius: 20px;
+margin: 10px;
+}
+
+#card10{
+  position: absolute;
+  margin-top:290px;
+  margin-left: 740px;
+  transform: rotate(28deg);
+  background: linear-gradient(to top, #0A2BFF 0%, #CF1DBD 100%);
+  animation-name: c10;
+  animation-duration: 2s;
+  animation-delay: 20s;
+  opacity:0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes c10{
+  from {opacity:0}
+  to {opacity:1}
+}
+#paragraph10{
+  display:none;
+  position:fixed;
+
+  padding: 40px; 
+  width: 300px;
+  height: 500px;
+justify-content: center;
+text-align: center;
+font-size: 17px;
+z-index: 10;
+border-color: wheat;
+border-width: 4px;
+border-style: double;
+border-radius: 20px;
+margin: 10px;
+}
+
+#card11{
+  position: absolute;
+  margin-top:280px;
+  margin-left: 770px;
+  transform: rotate(32deg);
+  background: linear-gradient(to top, #DE08FF 0%, orange 100%);
+  animation-name: c11;
+  animation-duration: 2s;
+  animation-delay: 22s;
+  opacity:0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes c11{
+  from {opacity:0}
+  to {opacity:1}
+}
+
+#paragraph11{
+  display:none;
+  position:fixed;
+
+  padding: 40px; 
+  width: 300px;
+  height: 500px;
+justify-content: center;
+text-align: center;
+font-size: 17px;
+z-index: 9;
+border-color: wheat;
+border-width: 4px;
+border-style: double;
+border-radius: 20px;
+margin: 10px;
+}
+
+
+#card12{
+  position: absolute;
+  margin-top:280px;
+  margin-left: 790px;
+  transform: rotate(36deg);
+  background: linear-gradient(to top, #DE08FF 0%, rgb(1, 250, 1) 100%);
+  animation-name: c9;
+  animation-duration: 2s;
+  animation-delay: 18s;
+  opacity:0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes c12{
+  from {opacity:0}
+  to {opacity:1}
+}
+#paragraph12{
+  display:none;
+  position:fixed;
+
+  padding: 40px; 
+  width: 300px;
+  height: 500px;
+justify-content: center;
+text-align: center;
+font-size: 17px;
+z-index: 8;
+border-color: wheat;
+border-width: 4px;
+border-style: double;
+border-radius: 20px;
+margin: 10px;
+}
+#card13{
+  position: absolute;
+  margin-top:280px;
+  margin-left: 820px;
+  transform: rotate(35deg);
+  background: linear-gradient(to top, #DE08FF 0%, yellow 100%);
+  animation-name: c9;
+  animation-duration: 2s;
+  animation-delay: 26s;
+  opacity:0;
+  animation-fill-mode: forwards;
+}
+
+@keyframes c13{
+  from {opacity:0}
+  to {opacity:1}
+}
+#paragraph13{
+  display:none;
+  position:fixed;
+
+  padding: 40px; 
+  width: 300px;
+  height: 500px;
+justify-content: center;
+text-align: center;
+font-size: 17px;
+z-index: 7;
+border-color: wheat;
+border-width: 4px;
+border-style: double;
+border-radius: 20px;
+margin: 10px;
+}

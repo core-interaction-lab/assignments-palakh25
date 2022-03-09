@@ -1,3 +1,13 @@
+@font-face {
+    font-family: "celtic";
+    src: url(Celtic.ttf);
+
+
+}
+
+
+
+
 body{
  display: flex;
  justify-content: center; 
@@ -5,7 +15,7 @@ margin: 75px 0;
 
 background: white;
 
-
+font-family: "celtic";
 animation: mymove 15s ;
 }
 
@@ -21,23 +31,16 @@ animation: mymove 15s ;
 
 }
 
-.container{
 
-    color:#0F00FF;
-    display:flex;
-   flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    max-width: 900px;
-    width: 100%;
-    height:600px;
-}
+   
+
 .mind-btn {
-    position: relative;
+    
    z-index: 1;
-   padding-left:500px;
-  padding-right: 500px;
-  padding-top: 500px;
+  margin-top: 900px;
+  margin-left: 200px;
+ 
+
 }
 .mind-btn:hover + .mind-text {
 opacity: 1;
@@ -54,23 +57,24 @@ opacity: 1;
     z-index: -1;
     justify-content: center;
     text-align: center;
-
+font-family: "celtic";
 }
 
 .box_item{
-    width: 200px;
-    width: 100%;
-    height:700px;
+    
     font-size: 60px;
+margin: auto;
+justify-content: center
+;}
     /*
     display: flex;
     align-items: center;
     justify-content: center;
     */
-padding: 20px;
 
 
-}
+
+
 
 .box_item:hover{
 /*
@@ -145,3 +149,5 @@ padding: 20px;
  #p16{
      color: #F900E3;
  }
+
+ 
