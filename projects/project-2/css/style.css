@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "celtic";
-    src: url(Celtic.ttf);
+    font-family: "Eu Alonira";
+    src: url("Eu Alonira.otf") format("opentype");
 
 
 }
@@ -9,13 +9,13 @@
 
 
 body{
- display: flex;
+ /* display: flex; */
  justify-content: center; 
 margin: 75px 0;
 
 background: white;
 
-font-family: "celtic";
+font-family: "Eu Alonira";
 animation: mymove 15s ;
 }
 
@@ -32,13 +32,18 @@ animation: mymove 15s ;
 }
 
 
-   
+   a{
+       text-decoration: none;
+       color: white;
+   }
 
 .mind-btn {
-    
+    margin: auto;
+  
    z-index: 1;
-  margin-top: 900px;
-  margin-left: 200px;
+  /* margin-top: 900px;
+  margin-left: 200px; */
+
  
 
 }
@@ -57,22 +62,35 @@ opacity: 1;
     z-index: -1;
     justify-content: center;
     text-align: center;
-font-family: "celtic";
+font-family: "Eu Alonira";
+font-size: 90%;
+line-height: 150%;
+}
+
+@media only screen and (max-width: 600px) {
+ .mind-text{
+     margin-top: 20px;
+     top: 20px;
+ }   
 }
 
 .box_item{
     
     font-size: 60px;
 margin: auto;
-justify-content: center
-;}
-    /*
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    */
+margin-top: 30%;
+text-align: center;
+display: block;
+}
 
-
+@media only screen and (max-width: 600px) {
+   .box_item {
+      font-size: 40px;
+    line-height: 45px;
+    margin-top: 15px;
+  }
+}
+  
 
 
 
@@ -91,6 +109,7 @@ justify-content: center
     font-weight: 20;
     text-align: center;
     display:block;
+    margin-top: 30%;
    
 }
 
@@ -150,4 +169,3 @@ justify-content: center
      color: #F900E3;
  }
 
- 

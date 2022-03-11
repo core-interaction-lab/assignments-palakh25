@@ -1,31 +1,87 @@
+@font-face {
+  font-family: "Eu Alonira";
+  src: url("Eu Alonira.otf") format("opentype");
 
+
+}
 body{
     background-color: black;
+    font-family: "Eu Alonira";
+    font-size: 12px;
+    line-height: 26px;
+    /* cursor: url('path-to-image.png'), auto; */
 }
+
+
 
 .heading{
-  margin-top: 200px;
-  font-size: large;
+  margin-top: 8%;
+ 
 text-align: center;
-}
+font-size: 450%;
+color: white;
+position: relative;
 
+
+}
+@media only screen and (max-width: 600px) {
+  .heading{
+      margin-top: 8%;
+      top: 20px;
+      height:450%;
+      width:60%;
+      font-size: 850%;
+      line-height: 200%;
+  }   
+ }
+
+
+a{
+  text-decoration: none;
+  color: white;
+
+}
+.back{
+
+  font-size: 940%;
+position: absolute;
+mix-blend-mode: difference;
+color: #0A2BFF;
+margin-top: 60%;
+  
+}
 .cards {
    
-   width: 400px;
-    height: 600px;
+   width: 25%;
+    height:70%;
     border-width: 2px;
-    border-radius: 20px;
-margin-top: 50px;
-margin-left: 140px;
+    border-radius: 5%;
+margin-top: 5%;
+margin-left: 5%;
+text-align: center;
+font-size: 12px;
 
 }
+@media only screen and (max-width: 600px) {
+  .cards {
+    font:8px;
+    line-height: 18px;
+    height:50%;
+    width:35%;
+    margin-left: 10px;
 
+  }
+  .heading{
+    font-size: 25px;
+
+  }
+}
 
 
 #card1{
     position: absolute;
-    margin-top:270px;
-    margin-left: 200px;
+    margin-top:  240px;;
+    margin-left: 280px;
     transform: rotate(-25deg);
    background: linear-gradient(to top, #B300CF 0%, #CF1512 100%);
  
@@ -33,6 +89,7 @@ margin-left: 140px;
   animation-duration: 2s;
   
 }
+
 
 @keyframes c1{
   from {opacity:0.3}
@@ -42,18 +99,19 @@ margin-left: 140px;
 #paragraph1{
     display:none;
     position:fixed;
-    padding: 40px; 
-    width: 300px;
-    height: 500px;
+    padding: 10px; 
+    width: 80%;
+    height: 90%;
 justify-content: center;
 text-align: center;
-font-size: 17px;
+font-size: 60%;
 z-index: 20;
 border-color: wheat;
 border-width: 4px;
 border-style: double;
 border-radius: 20px;
-margin: 10px;
+margin: 5px;
+overflow: scroll;
 }
 
 
@@ -74,21 +132,24 @@ margin: 10px;
     from {opacity:0}
     to {opacity:1}
   }
+
+ 
 #paragraph2{
     display:none;
     position:fixed;
-    padding: 40px; 
-    width: 300px;
-    height: 500px;
+    padding: 10px; 
+    width: 80%;
+    height: 90%;
 justify-content: center;
 text-align: center;
-font-size: 17px;
+font-size: 60%;
+z-index: 20;
 border-color: wheat;
 border-width: 4px;
 border-style: double;
 border-radius: 20px;
-margin: 10px;
-
+margin: 5px;
+overflow: scroll;
 
 
 z-index: 18;
@@ -96,7 +157,7 @@ z-index: 18;
 #card3{
     position: absolute;
     margin-top:220px;
-    margin-left: 400px;
+    margin-left: 400px; 
     transform: rotate(-5deg);
     background: linear-gradient(to top, #B300CF 0%, #1540CF 100%);
     animation-name: c3;
@@ -104,6 +165,7 @@ z-index: 18;
     animation-delay: 6s;
     opacity:0;
     animation-fill-mode: forwards;
+    overflow: scroll;
   }
   
   @keyframes c3{
@@ -114,18 +176,19 @@ z-index: 18;
 #paragraph3{
     display:none;
     position:fixed;
-    padding: 40px; 
-    width: 300px;
-    height: 500px;
+    padding: 10px; 
+    width: 80%;
+    height: 90%;
 justify-content: center;
 text-align: center;
-font-size: 17px;
+font-size: 60%;
+z-index: 20;
 border-color: wheat;
 border-width: 4px;
 border-style: double;
 border-radius: 20px;
-margin: 10px;
-
+margin: 5px;
+overflow: scroll;
 
 
 z-index: 17;
@@ -133,7 +196,7 @@ z-index: 17;
 #card4{
     position: absolute;
     margin-top:225px;
-    margin-left: 480px;
+    margin-left: 480px; 
     transform: rotate(0deg);
     background: linear-gradient(to top, #3011CF 0%, #04CFC1 100%);
     animation-name: c4;
@@ -141,6 +204,7 @@ z-index: 17;
     animation-delay: 8s;
     opacity:0;
     animation-fill-mode: forwards;
+    overflow: scroll;
   }
   
   @keyframes c4{
@@ -153,18 +217,19 @@ z-index: 17;
     position:fixed;
 
 
-    padding: 40px; 
-    width: 300px;
-    height: 500px;
+    padding: 10px; 
+    width: 80%;
+    height: 90%;
 justify-content: center;
 text-align: center;
-font-size: 17px;
-z-index: 16;
+font-size: 60%;
+z-index: 20;
 border-color: wheat;
 border-width: 4px;
 border-style: double;
 border-radius: 20px;
-margin: 10px;
+margin: 5px;
+overflow: scroll;
 }
 #card5{
     position: absolute;
@@ -188,18 +253,19 @@ margin: 10px;
     display:none;
     position:fixed;
 
-    padding: 40px; 
-    width: 300px;
-    height: 500px;
+    padding: 10px; 
+    width: 80%;
+    height: 90%;
 justify-content: center;
 text-align: center;
-font-size: 17px;
-z-index: 15;
+font-size: 60%;
+z-index: 20;
 border-color: wheat;
 border-width: 4px;
 border-style: double;
 border-radius: 20px;
-margin: 10px;
+margin: 5px;
+overflow: scroll;
 }
 
 
@@ -227,18 +293,19 @@ margin: 10px;
     position:fixed;
 
 
-    padding: 40px; 
-    width: 300px;
-    height: 500px;
+    padding: 10px; 
+    width: 80%;
+    height: 90%;
 justify-content: center;
 text-align: center;
-font-size: 17px;
-z-index: 14;
+font-size: 60%;
+z-index: 20;
 border-color: wheat;
 border-width: 4px;
 border-style: double;
 border-radius: 20px;
-margin: 10px;
+margin: 5px;
+overflow: scroll;
 }
 
 
@@ -264,18 +331,19 @@ margin: 10px;
     display:none;
     position:fixed;
 
-    padding: 40px; 
-    width: 300px;
-    height: 500px;
+    padding: 10px; 
+    width: 80%;
+    height: 90%;
 justify-content: center;
 text-align: center;
-font-size: 17px;
-z-index: 13;
+font-size: 60%;
+z-index: 20;
 border-color: wheat;
 border-width: 4px;
 border-style: double;
 border-radius: 20px;
-margin: 10px;
+margin: 5px;
+overflow: scroll;
 }
 #card8{
     position: absolute;
@@ -299,18 +367,19 @@ margin: 10px;
     display:none;
     position:fixed;
 
-    padding: 40px; 
-    width: 300px;
-    height: 500px;
+    padding: 10px; 
+    width: 80%;
+    height: 90%;
 justify-content: center;
 text-align: center;
-font-size: 17px;
-z-index: 12;
+font-size: 60%;
+z-index: 20;
 border-color: wheat;
 border-width: 4px;
 border-style: double;
 border-radius: 20px;
-margin: 10px;
+margin: 5px;
+overflow: scroll;
 }
 #card9{
     position: absolute;
@@ -323,6 +392,8 @@ margin: 10px;
     animation-delay: 18s;
     opacity:0;
     animation-fill-mode: forwards;
+    overflow: scroll;
+    
   }
   
   @keyframes c9{
@@ -334,31 +405,34 @@ margin: 10px;
     display:none;
     position:fixed;
 
-    padding: 40px; 
-    width: 300px;
-    height: 500px;
+    padding: 10px; 
+    width: 80%;
+    height: 90%;
 justify-content: center;
 text-align: center;
-font-size: 17px;
-z-index: 11;
+font-size: 60%;
+z-index: 20;
 border-color: wheat;
 border-width: 4px;
 border-style: double;
 border-radius: 20px;
-margin: 10px;
+margin: 5px;
+overflow: scroll;
+
 }
 
 #card10{
   position: absolute;
   margin-top:290px;
-  margin-left: 740px;
-  transform: rotate(28deg);
+  margin-left: 760px;
+  transform: rotate(30deg);
   background: linear-gradient(to top, #0A2BFF 0%, #CF1DBD 100%);
   animation-name: c10;
   animation-duration: 2s;
   animation-delay: 20s;
   opacity:0;
   animation-fill-mode: forwards;
+  
 }
 
 @keyframes c10{
@@ -369,25 +443,26 @@ margin: 10px;
   display:none;
   position:fixed;
 
-  padding: 40px; 
-  width: 300px;
-  height: 500px;
+  padding: 10px; 
+    width: 80%;
+    height: 90%;
 justify-content: center;
 text-align: center;
-font-size: 17px;
-z-index: 10;
+font-size: 60%;
+z-index: 20;
 border-color: wheat;
 border-width: 4px;
 border-style: double;
 border-radius: 20px;
-margin: 10px;
+margin: 5px;
+overflow: scroll;
 }
 
 #card11{
   position: absolute;
-  margin-top:280px;
+  margin-top:290px;
   margin-left: 770px;
-  transform: rotate(32deg);
+  transform: rotate(36deg);
   background: linear-gradient(to top, #DE08FF 0%, orange 100%);
   animation-name: c11;
   animation-duration: 2s;
@@ -405,30 +480,31 @@ margin: 10px;
   display:none;
   position:fixed;
 
-  padding: 40px; 
-  width: 300px;
-  height: 500px;
+  padding: 10px; 
+    width: 80%;
+    height: 90%;
 justify-content: center;
 text-align: center;
-font-size: 17px;
-z-index: 9;
+font-size: 60%;
+z-index: 20;
 border-color: wheat;
 border-width: 4px;
 border-style: double;
 border-radius: 20px;
-margin: 10px;
+margin: 5px;
+overflow: scroll;
 }
 
 
 #card12{
   position: absolute;
-  margin-top:280px;
-  margin-left: 790px;
-  transform: rotate(36deg);
+  margin-top:290px;
+  margin-left: 810px;
+  transform: rotate(42deg);
   background: linear-gradient(to top, #DE08FF 0%, rgb(1, 250, 1) 100%);
   animation-name: c9;
   animation-duration: 2s;
-  animation-delay: 18s;
+  animation-delay: 24s;
   opacity:0;
   animation-fill-mode: forwards;
 }
@@ -441,50 +517,107 @@ margin: 10px;
   display:none;
   position:fixed;
 
-  padding: 40px; 
-  width: 300px;
-  height: 500px;
+  padding: 10px; 
+    width: 80%;
+    height: 90%;
 justify-content: center;
 text-align: center;
-font-size: 17px;
-z-index: 8;
+font-size: 60%;
+z-index: 20;
 border-color: wheat;
 border-width: 4px;
 border-style: double;
 border-radius: 20px;
-margin: 10px;
-}
-#card13{
-  position: absolute;
-  margin-top:280px;
-  margin-left: 820px;
-  transform: rotate(35deg);
-  background: linear-gradient(to top, #DE08FF 0%, yellow 100%);
-  animation-name: c9;
-  animation-duration: 2s;
-  animation-delay: 26s;
-  opacity:0;
-  animation-fill-mode: forwards;
+margin: 5px;
+overflow: scroll;
 }
 
-@keyframes c13{
-  from {opacity:0}
-  to {opacity:1}
-}
-#paragraph13{
-  display:none;
-  position:fixed;
+.back2{
 
-  padding: 40px; 
-  width: 300px;
-  height: 500px;
-justify-content: center;
-text-align: center;
-font-size: 17px;
-z-index: 7;
-border-color: wheat;
-border-width: 4px;
-border-style: double;
-border-radius: 20px;
-margin: 10px;
+  font-size: 940%;
+position: absolute;
+mix-blend-mode: difference;
+color: #DE08FF;
+margin-top: 60%;
+  
+}
+.back3{
+
+  font-size: 940%;
+position: absolute;
+mix-blend-mode: difference;
+color:  rgb(1, 250, 1);
+margin-top: 60%;
+}
+.back4{
+
+  font-size: 940%;
+position: absolute;
+mix-blend-mode: difference;
+color: #CF0;
+margin-top: 60%;
+}
+.back5{
+
+  font-size: 940%;
+position: absolute;
+mix-blend-mode: difference;
+color: #0A2BFF;
+margin-top: 60%;
+}
+.back6{
+
+  font-size: 940%;
+position: absolute;
+mix-blend-mode: difference;
+color: red;
+margin-top: 60%;
+}
+.back7{
+
+  font-size: 940%;
+position: absolute;
+mix-blend-mode: difference;
+color: #DE08FF;
+margin-top: 60%;
+}
+.back8{
+
+  font-size: 940%;
+position: absolute;
+mix-blend-mode: difference;
+color: orange;
+margin-top: 60%;
+}
+.back9{
+
+  font-size: 940%;
+position: absolute;
+mix-blend-mode: difference;
+color: #0A2BFF;
+margin-top: 60%; 
+}
+.back10{
+
+  font-size: 940%;
+position: absolute;
+mix-blend-mode: difference;
+color:  rgb(1, 250, 1);
+margin-top: 60%; 
+}
+.back11{
+
+  font-size: 940%;
+position: absolute;
+mix-blend-mode: difference;
+color:  #05E6FF;
+margin-top: 60%; 
+}
+.back12{
+  font-size: 940%;
+ 
+position: absolute;
+mix-blend-mode: difference;
+color: orange;
+margin-top: 60%;
 }
