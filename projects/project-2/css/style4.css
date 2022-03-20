@@ -48,6 +48,7 @@ position: absolute;
 mix-blend-mode: difference;
 color: #0A2BFF;
 margin-top: 60%;
+opacity: 0.6;
   
 }
 .cards {
@@ -99,12 +100,12 @@ font-size: 12px;
 #paragraph1{
     display:none;
     position:fixed;
-    padding: 10px; 
-    width: 80%;
-    height: 90%;
+    padding: 5px; 
+    width: 90%;
+    height: 95%;
 justify-content: center;
 text-align: center;
-font-size: 60%;
+font-size: 100%;
 z-index: 20;
 border-color: wheat;
 border-width: 4px;
@@ -137,12 +138,11 @@ overflow: scroll;
 #paragraph2{
     display:none;
     position:fixed;
-    padding: 10px; 
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 95%;
 justify-content: center;
 text-align: center;
-font-size: 60%;
+font-size: 100%;
 z-index: 20;
 border-color: wheat;
 border-width: 4px;
@@ -176,12 +176,11 @@ z-index: 18;
 #paragraph3{
     display:none;
     position:fixed;
-    padding: 10px; 
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 95%;
 justify-content: center;
 text-align: center;
-font-size: 60%;
+font-size: 100%;
 z-index: 20;
 border-color: wheat;
 border-width: 4px;
@@ -217,12 +216,11 @@ z-index: 17;
     position:fixed;
 
 
-    padding: 10px; 
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 95%;
 justify-content: center;
 text-align: center;
-font-size: 60%;
+font-size: 100%;
 z-index: 20;
 border-color: wheat;
 border-width: 4px;
@@ -230,6 +228,8 @@ border-style: double;
 border-radius: 20px;
 margin: 5px;
 overflow: scroll;
+
+z-index: 16;
 }
 #card5{
     position: absolute;
@@ -253,12 +253,11 @@ overflow: scroll;
     display:none;
     position:fixed;
 
-    padding: 10px; 
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 95%;
 justify-content: center;
 text-align: center;
-font-size: 60%;
+font-size: 100%;
 z-index: 20;
 border-color: wheat;
 border-width: 4px;
@@ -293,12 +292,11 @@ overflow: scroll;
     position:fixed;
 
 
-    padding: 10px; 
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 95%;
 justify-content: center;
 text-align: center;
-font-size: 60%;
+font-size: 100%;
 z-index: 20;
 border-color: wheat;
 border-width: 4px;
@@ -331,12 +329,11 @@ overflow: scroll;
     display:none;
     position:fixed;
 
-    padding: 10px; 
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 95%;
 justify-content: center;
 text-align: center;
-font-size: 60%;
+font-size: 100%;
 z-index: 20;
 border-color: wheat;
 border-width: 4px;
@@ -367,12 +364,11 @@ overflow: scroll;
     display:none;
     position:fixed;
 
-    padding: 10px; 
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 95%;
 justify-content: center;
 text-align: center;
-font-size: 60%;
+font-size: 100%;
 z-index: 20;
 border-color: wheat;
 border-width: 4px;
@@ -405,12 +401,11 @@ overflow: scroll;
     display:none;
     position:fixed;
 
-    padding: 10px; 
-    width: 80%;
-    height: 90%;
+    width: 90%;
+    height: 95%;
 justify-content: center;
 text-align: center;
-font-size: 60%;
+font-size: 100%;
 z-index: 20;
 border-color: wheat;
 border-width: 4px;
@@ -443,12 +438,11 @@ overflow: scroll;
   display:none;
   position:fixed;
 
-  padding: 10px; 
-    width: 80%;
-    height: 90%;
+  width: 90%;
+    height: 95%;
 justify-content: center;
 text-align: center;
-font-size: 60%;
+font-size: 100%;
 z-index: 20;
 border-color: wheat;
 border-width: 4px;
@@ -480,12 +474,11 @@ overflow: scroll;
   display:none;
   position:fixed;
 
-  padding: 10px; 
-    width: 80%;
-    height: 90%;
+  width: 90%;
+    height: 95%;
 justify-content: center;
 text-align: center;
-font-size: 60%;
+font-size: 100%;
 z-index: 20;
 border-color: wheat;
 border-width: 4px;
@@ -517,12 +510,11 @@ overflow: scroll;
   display:none;
   position:fixed;
 
-  padding: 10px; 
-    width: 80%;
-    height: 90%;
+  width: 90%;
+  height: 95%;
 justify-content: center;
 text-align: center;
-font-size: 60%;
+font-size: 100%;
 z-index: 20;
 border-color: wheat;
 border-width: 4px;
@@ -539,7 +531,7 @@ position: absolute;
 mix-blend-mode: difference;
 color: #DE08FF;
 margin-top: 60%;
-  
+  opacity: 0.6;
 }
 .back3{
 
@@ -548,6 +540,7 @@ position: absolute;
 mix-blend-mode: difference;
 color:  rgb(1, 250, 1);
 margin-top: 60%;
+opacity: 0.6;
 }
 .back4{
 
@@ -556,6 +549,7 @@ position: absolute;
 mix-blend-mode: difference;
 color: #CF0;
 margin-top: 60%;
+opacity: 0.6;
 }
 .back5{
 
@@ -564,6 +558,7 @@ position: absolute;
 mix-blend-mode: difference;
 color: #0A2BFF;
 margin-top: 60%;
+opacity: 0.6;
 }
 .back6{
 
@@ -572,6 +567,7 @@ position: absolute;
 mix-blend-mode: difference;
 color: red;
 margin-top: 60%;
+opacity: 0.6;
 }
 .back7{
 
@@ -580,6 +576,7 @@ position: absolute;
 mix-blend-mode: difference;
 color: #DE08FF;
 margin-top: 60%;
+opacity: 0.6;
 }
 .back8{
 
@@ -588,6 +585,7 @@ position: absolute;
 mix-blend-mode: difference;
 color: orange;
 margin-top: 60%;
+opacity: 0.6;
 }
 .back9{
 
@@ -596,6 +594,7 @@ position: absolute;
 mix-blend-mode: difference;
 color: #0A2BFF;
 margin-top: 60%; 
+opacity: 0.6;
 }
 .back10{
 
@@ -604,6 +603,7 @@ position: absolute;
 mix-blend-mode: difference;
 color:  rgb(1, 250, 1);
 margin-top: 60%; 
+opacity: 0.6;
 }
 .back11{
 
@@ -612,6 +612,7 @@ position: absolute;
 mix-blend-mode: difference;
 color:  #05E6FF;
 margin-top: 60%; 
+opacity: 0.6;
 }
 .back12{
   font-size: 940%;
@@ -620,4 +621,5 @@ position: absolute;
 mix-blend-mode: difference;
 color: orange;
 margin-top: 60%;
+opacity: 0.6;
 }
