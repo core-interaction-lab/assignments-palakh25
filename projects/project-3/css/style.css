@@ -1,29 +1,63 @@
-.container {
-
-    font-family: "Celtic";
-    color: brown;
-    justify-content: center;
-
-
-}
-
-.h1{
-    color: blueviolet;
-    font-size: 300px;
-    justify-content: center;
-    margin-left: 20%;
-    margin-right: 20%;
+@font-face {
+    font-family: "Black Rose";
+    src: url("BlackRose=2Onld.ttf") format("opentype");
+  
+  
+  }
+  @font-face {
+    font-family: "AndeloMO";
+    src: url("../ANDALEMO.ttf") format("opentype");
+  
+  
+  }
+.heading{
+    font-family: "Black Rose";
+    text-decoration: none;
+    font-size: 90px;
+color: white;
+    -webkit-text-stroke: 2px black;
+    position: absolute;
+    margin: 12%;
 }
 a{
-    color: green;
-    font-family: "Celtic";
+    font-family: "AndeloMo";
+    text-decoration: none;
+    justify-content: center;
+  color: black;
+    font-size: 85px;
+    position: absolute;
+    margin: 8%;
+  
+  
+}
+
+.oval{
+    font-family:"AndeloMo";
+    font-size: 72px;
+    width: 400px;
+    height: 137px;
+    border-radius: 50%;
+
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+   justify-content: center;
+  text-decoration: none;
+  position: absolute;
+
+margin-top: 18%;
+margin-bottom: 18%;
+margin-left: 40%;
+
 
 }
 
-.h2{
-    color: aqua;
-    font-size: 200px;
-    justify-content: center;
-    margin: 20%;
+img{
+    height: 600px;
+    width: 500px;
+    position: absolute;
+    margin-left: 50%;
+    z-index: -1;
+    margin-top: 20%;
 }
 

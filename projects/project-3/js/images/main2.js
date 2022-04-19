@@ -6,18 +6,18 @@
 
 
 const db = {   
-    id: 'appCH6UjCo1Bkw16M',
-    table: 'project3',
+    id: 'appPiFK0x3NJa8GDs',
+    table: 'tattoo',
     apiKey: 'keyzJ9RlZVLsdVb9O'
 };
 
 
 
 
-const airtableUrl = `https://api.airtable.com/v0/appPiFK0x3NJa8GDs/Tattoos \`
+const airtableUrl = `https://api.airtable.com/v0/${db.id}/${db.table}?maxRecords=100&view=Grid%20view&api_key=${db.apiKey}`
 // aurtableulr is a container that brings in info frm the table 
 
-const fetchSpices = async () => {
+const fetchTattoos = async () => {
     const response = await fetch(airtableUrl).then(data => data.json());
     console.log(response);
 // fetchMovies is a name created by us to bring in all the airtable records 
@@ -49,7 +49,7 @@ response.records.forEach((name) => {
     //forEach go one by one and pick up each record
     //in table fpr all records pick one by one 
     console.log(name);
-    const spiceContainer = document.createElement('article');
+    const tattoocontainer = document.createElement('article');
     if (name.fields.Attachments) {
         console.log(name.fields.Attachments[0].url);
 
@@ -83,7 +83,7 @@ response.records.forEach((name) => {
 
 };
 
-fetchSpices();
+fetchTattoos();
 
 
 
