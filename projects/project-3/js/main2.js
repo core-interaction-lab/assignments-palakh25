@@ -6,18 +6,18 @@
 
 
 const db = {   
-    id: 'appPiFK0x3NJa8GDs',
+    id: 'ppPiFK0x3NJa8GDs',
     table: 'tattoo',
-    apiKey: 'keyzJ9RlZVLsdVb9O'
+    apiKey: 'keyzJ9RlZVLsdVb9O',
 };
 
 
 
 
-const airtableUrl = `https://api.airtable.com/v0/${db.id}/${db.table}?maxRecords=100&view=Grid%20view&api_key=${db.apiKey}`
+const airtableUrl = `https://api.airtable.com/v0/${db.id}/${db.table}?maxRecords=100&view=Grid%20view&api_key=${db.apiKey}`;
 // aurtableulr is a container that brings in info frm the table 
 
-const fetchTattoos = async () => {
+const fetchSpices = async () => {
     const response = await fetch(airtableUrl).then(data => data.json());
     console.log(response);
 // fetchMovies is a name created by us to bring in all the airtable records 
@@ -44,25 +44,25 @@ const container = document.getElementById('project3-container');
 //link between html and javascript 
 
 
-response.records.forEach((name) => {
+response.records.forEach((Number) => {
     //response contains table, response ha sall 100 records 
     //forEach go one by one and pick up each record
     //in table fpr all records pick one by one 
-    console.log(name);
-    const tattoocontainer = document.createElement('article');
-    if (name.fields.Attachments) {
-        console.log(name.fields.Attachments[0].url);
+    console.log(Number);
+    const spiceContainer = document.createElement('article');
+    if (Number.fields.Attachments) {
+        console.log(Number.fields.Attachments[0].url);
 
 
         const posterImg = document.createElement ('img');
         // posterImg.src =name.fields.Attachments[0].url;
-        posterImg.setAttribute( 'src', name.fields.Attachments[0].url)
+        posterImg.setAttribute( 'src', Number.fields.Attachments[0].url)
         spiceContainer.append(posterImg);
     }
    
     if (name.fields.weight){
         const weightEl = document.createElement ('p');
-     weightEl.innerHTML = name.fields.weight;
+     weightEl.innerHTML = Number.fields.weight;
      weightEl.classList.add('weight')
      spiceContainer.append(weightEl);
 
@@ -70,7 +70,7 @@ response.records.forEach((name) => {
 
       if (name.fields.spice.length > 0) {
         const spiceEl = document.createElement('p');
-        spiceEl.innerHTML = name.fields.spice;
+        spiceEl.innerHTML = Number.fields.spice;
         spiceEl.classList.add ('spice');
         spiceContainer.append(spiceEl);
       }
@@ -83,7 +83,7 @@ response.records.forEach((name) => {
 
 };
 
-fetchTattoos();
+fetchSpices();
 
 
 

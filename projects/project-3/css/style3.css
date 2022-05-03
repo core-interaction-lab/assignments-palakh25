@@ -20,10 +20,12 @@
       font-family: "Black Rose";
       color: white;
     -webkit-text-stroke: 2px black;
-      margin: 8%;
+      margin-top: 8%;
       justify-content: center;
       animation-name: example;
-      animation-duration: 5s;}
+      animation-duration: 5s;
+    animation-delay: -5s;
+      margin-left: 15%;}
 
       @keyframes example {
         0%   {-webkit-text-stroke: black;}
@@ -123,4 +125,14 @@ a{
 	95% {
 		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
 	}
+}
+
+.link {
+ height: 40px;
+ width:350px;
+ border: solid 2px black ;
+ border-radius: 50%;
+ text-align: center;
+ justify-self: stretch;
+ padding: 10px;
 }

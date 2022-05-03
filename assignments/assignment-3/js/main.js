@@ -14,7 +14,7 @@ const db = {
 
 
 
-const airtableUrl = `https://api.airtable.com/v0/appPiFK0x3NJa8GDs/Tattoos \`
+const airtableUrl = `https://api.airtable.com/v0/${db.id}/${db.table}?maxRecords=100&view=Grid%20view&api_key=${db.apiKey}`
 // aurtableulr is a container that brings in info frm the table 
 
 const fetchSpices = async () => {
@@ -56,7 +56,7 @@ response.records.forEach((name) => {
 
         const posterImg = document.createElement ('img');
         // posterImg.src =name.fields.Attachments[0].url;
-        posterImg.setAttribute( 'src', name.fields.Attachments[0].url)
+        posterImg.setAttribute( 'src', name.fields.Attachments[2].url)
         spiceContainer.append(posterImg);
     }
    

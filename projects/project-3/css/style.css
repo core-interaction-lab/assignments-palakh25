@@ -13,51 +13,43 @@
 .heading{
     font-family: "Black Rose";
     text-decoration: none;
-    font-size: 90px;
+    font-size: 100px;
 color: white;
     -webkit-text-stroke: 2px black;
     position: absolute;
-    margin: 12%;
+    margin-top: 40%;
+    margin-left: 25%;
+    margin-right: 20%;
 }
-a{
-    font-family: "AndeloMo";
-    text-decoration: none;
-    justify-content: center;
-  color: black;
-    font-size: 85px;
-    position: absolute;
-    margin: 8%;
-  
-  
-}
+
 
 .oval{
     font-family:"AndeloMo";
-    font-size: 72px;
-    width: 400px;
-    height: 137px;
-    border-radius: 50%;
-
+    font-size: 99px;
+    width: 480px;
+    height: 127px;
+    border-radius: 60%;
+text-align: center;
     border-color: black;
     border-width: 2px;
     border-style: solid;
    justify-content: center;
   text-decoration: none;
   position: absolute;
-
-margin-top: 18%;
-margin-bottom: 18%;
-margin-left: 40%;
-
+  margin-top: 44%;
+  margin-left: 45%;
+  margin-right: 15%;
+  padding: 1%;
 
 }
 
 img{
-    height: 600px;
-    width: 500px;
-    position: absolute;
-    margin-left: 50%;
-    z-index: -1;
-    margin-top: 20%;
+    height: 1000px;
+    width: 900px;
+    position: fixed;
+    top:-130px;
+    margin-left: 25%;
+
+   z-index: -1;
 }
 
