@@ -199,12 +199,13 @@ img{
 }
 
 .vericaltext{
+   
     writing-mode: vertical-lr;
     text-orientation: upright;
     color: black;
     font-family: "Black Rose";
-    position: fixed;
-    left: 1710px;
+    position: absolute;
+    left: 1510px;
     top: 30px;
     text-decoration: none;
    }
