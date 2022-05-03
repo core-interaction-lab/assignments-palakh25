@@ -205,9 +205,10 @@ img{
     color: black;
     font-family: "Black Rose";
     position: absolute;
-    left: 1510px;
+   right: 3%;
     top: 30px;
     text-decoration: none;
+   
    }
    a{
 
