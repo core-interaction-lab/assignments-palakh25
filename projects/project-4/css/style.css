@@ -35,13 +35,23 @@
     top: 200px; 
     height:90%;
     width: 40%;
-    z-index: -2;
+    z-index: -1;
      margin-left: 25%; 
 
     
  
 }
+#background1{
+  position: absolute;
+  top: 200px; 
+  height:90%;
+  width: 40%;
+  z-index: -1;
+   margin-left: 25%; 
 
+  
+
+}
 
 #print{
   position: absolute;
@@ -60,7 +70,7 @@ padding: 5%;
 
 #textblock-color{
 position: absolute;
-    top: 730px; 
+    top: 680px; 
     height: 20%;
     width: 90%;
     margin: auto;
@@ -121,7 +131,7 @@ button {
   top: 10px;
 
   
-  left: 10%;
+  
   color: red;
  border: 0px;
 background-color: transparent;
@@ -132,6 +142,16 @@ background-color: transparent;
  border-bottom: 20px solid black;
 
 }
+#sixties {
+
+  left: 10%;
+
+}
+
+#nineties{
+
+  left: 20%;
+}
   
   button:hover {
     font-size: 50px;
@@ -139,14 +159,12 @@ background-color: transparent;
 
 #bg-gradient {
   position: absolute;
-  top: 200px; 
-  height: 70%;
-  width: 50%;
-  z-index: -5;
-   margin-left: 10%; 
-   margin-right: 10%;
-  
-  overflow: hidden;
+    top: 200px; 
+    height:90%;
+    width: 40%;
+    z-index: -5;
+     margin-left: 25%; 
+    overflow: hidden;
 }
 
 #bg-gradient .inner {

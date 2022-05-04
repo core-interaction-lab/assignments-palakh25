@@ -102,3 +102,15 @@ imgElement.setAttribute("src", collage[count]);
 
 
 }
+
+var bg90s = new Array("90/ombre-90/bg901.jpeg", "js/90/ombre-90/bg902.jpg", "js/90/ombre-90/bg903.jpg", "js/90/ombre-90/bg904.jpeg", "js/90/ombre-90/bg905.jpg", "js/90/ombre-90/bg906.jpeg", "js/90/ombre-90/bg907.jpeg", "js/90/ombre-90/bg908.jpg", "js/90/ombre-90/bg909.jpg" );
+ 
+
+
+function generate90 () {
+
+    var randomNum = Math.floor(Math.random() * bg90s.length);
+    document.getElementById("background1").src = bg90s[randomNum];
+
+
+}

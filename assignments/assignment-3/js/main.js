@@ -1,5 +1,11 @@
 
-
+var title= document.getElementById("title");
+title.addEventListener("mouseover", function(event){
+    event.target.style.color= "purple";
+    setTimeout(function(){
+    event.target.style.color = "";
+    },1000)
+}, false)
 // db = database
 //container to store infromation abput database 
 // you get your api key from airtable//acount 
@@ -84,6 +90,7 @@ response.records.forEach((name) => {
 };
 
 fetchSpices();
+
 
 
 

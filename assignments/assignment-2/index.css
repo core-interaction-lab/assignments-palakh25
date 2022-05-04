@@ -54,19 +54,28 @@ left:50px;
   flex-basis:50px;
 flex-direction: row;
 }
+
+
 .menu {
   display: flex;
-  align-items: center;}
-  
+  align-items: center;
+  }
 .menu ul{
   display: flex;
     flex-direction: row;
     justify-content: flex-end;
-position:absolute;
-top:80px;
+position:relative;
+top:100px;
 
+list-style-type : none;
 
   
+}
+.menu ul li{
+  padding: 10px;
+}
+.wrap{
+  display: flex; 
 }
 img{
   position:absolute;
