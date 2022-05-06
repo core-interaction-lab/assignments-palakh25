@@ -41,7 +41,8 @@ function generate60(){
     rectangle.style.backgroundColor= txt60s[random];
 
     
-      
+    var input60 = document.getElementById('title');
+    input60.style.opacity= '1';
       
     // var image= document.getElementById("print");
     // var random= Math.floor(Math.random()*imgprint60s.length);
@@ -105,12 +106,25 @@ imgElement.setAttribute("src", collage[count]);
 
 var bg90s = new Array("90/ombre-90/bg901.jpeg", "js/90/ombre-90/bg902.jpg", "js/90/ombre-90/bg903.jpg", "js/90/ombre-90/bg904.jpeg", "js/90/ombre-90/bg905.jpg", "js/90/ombre-90/bg906.jpeg", "js/90/ombre-90/bg907.jpeg", "js/90/ombre-90/bg908.jpg", "js/90/ombre-90/bg909.jpg" );
  
+const fnt90s = ["family1", "family2", "family3", "family4"];
+
+function generate90() {
+
+    var randomNum1 = Math.floor(Math.random() * bg90s.length);
+    document.getElementById("background1").src = bg90s[randomNum1];
+
+    var input90 = document.getElementById('title90');
+input90.style.opacity= '1';
 
 
-function generate90 () {
 
-    var randomNum = Math.floor(Math.random() * bg90s.length);
-    document.getElementById("background1").src = bg90s[randomNum];
-
-
+    var title=document.getElementById('title90');
+    
+    var random= Math.floor(Math.random()*fnt90s.length);
+    console.log(random);
+    console.log (fnt90s[random]);
+  
+    title.style.fontFamily= fnt90s[random];
+ 
 }
+

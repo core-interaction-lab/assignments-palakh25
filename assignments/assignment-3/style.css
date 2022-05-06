@@ -73,3 +73,16 @@ p{
     width: 200px;
   
 }
+
+@media only screen and (min-width: 480px) {
+    .title {
+        left: 60px;
+     font-size: 20;
+    }
+    p{
+        
+        font-size: 18px;
+    }
+
+
+  }
