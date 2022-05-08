@@ -1,19 +1,10 @@
+
 const bg60s = ["blue", "red", "purple", "orange"]; //array of lists of colors, varies from era to era
 const fnt60s = ["adobe", "khand", "kohinoor", "munshi", "saman"];
 const txt60s = ["blue", "red", "pink", "yellow"];
 var myPix = new Array("js/images/1.png", "js/images/2.png", "js/images/3.png", "js/images/4.png", "js/images/6.png");
 const collage = ["js/collage/f1.png", "js/collage/f2.png", "js/collage/f3.png", "js/collage/f5.png", "js/collage/f6.png"];
 const bg260s = ["blue", "red", "purple", "orange"];
-
-const bgInner = document.querySelector('#bg-gradient .inner');
-document.addEventListener('mousemove', evt => {
-    const x = evt.clientX;
-    const y = evt. clientY;
-    //console.log(x, y);
-    const percent = x / window.innerWidth;
-    console.log(percent);
-    bgInner.setAttribute('style', `left: -${percent * 100}%`);
-});
 
 function generate60(){
 
@@ -23,13 +14,13 @@ function generate60(){
     console.log(bg60s[random]);
     background.style.backgroundColor= bg60s[random];
 
-    var font= document.getElementById ("text");
-    var title=document.getElementById("title");
+    // var font= document.getElementById ("text");
+    var title=document.getElementById("title60");
     
     var random= Math.floor(Math.random()*fnt60s.length);
     console.log(random);
     console.log (fnt60s[random]);
-    font.style.fontFamily= fnt60s[random];
+    // font.style.fontFamily= fnt60s[random];
     title.style.fontFamily= fnt60s[random];
  
     
@@ -41,19 +32,14 @@ function generate60(){
     rectangle.style.backgroundColor= txt60s[random];
 
     
-    var input60 = document.getElementById('title');
+    var input60 = document.getElementById('title60');
     input60.style.opacity= '1';
-      
-    // var image= document.getElementById("print");
-    // var random= Math.floor(Math.random()*imgprint60s.length);
-    // console.log(random);
-    // console.log(imgprint60s[random]);
-    // image.setAttribute("src", imgprint60s);
-
-
-    var randomNum = Math.floor(Math.random() * myPix.length);
-     document.getElementById("print").src = myPix[randomNum];
+    
+    
+var randomNum = Math.floor(Math.random() * myPix.length);
+document.getElementById("print").src = myPix[randomNum];
    
+
     //  var randomNum = Math.floor(Math.random() * collage.length);
     //  document.getElementById("actor").src = collage[randomNum];
 
@@ -61,20 +47,7 @@ function generate60(){
 }
     
 
-// function changeImg(){
-    
-//     var Image_Id = document.getElementById('getImage');
-//     if (Image_Id.src.match("js/collage/f1.png")) {
-//         Image_Id.src = "js/collage/f2.png";}
-//         Image_Id.src = "js/collage/f3.png";
-//         Image_Id.src = "js/collage/f5.png";
-//         Image_Id.src = "js/collage/f6.png";
-       
-//     }
-//     else {
-//         Image_Id.src = "js/collage/f1.png";
-//     }
-// }        
+        
 
 var count=0 
 function toggleImage() {
@@ -104,9 +77,12 @@ imgElement.setAttribute("src", collage[count]);
 
 }
 
+
+// 90s STYLING 
+
 var bg90s = new Array("90/ombre-90/bg901.jpeg", "js/90/ombre-90/bg902.jpg", "js/90/ombre-90/bg903.jpg", "js/90/ombre-90/bg904.jpeg", "js/90/ombre-90/bg905.jpg", "js/90/ombre-90/bg906.jpeg", "js/90/ombre-90/bg907.jpeg", "js/90/ombre-90/bg908.jpg", "js/90/ombre-90/bg909.jpg" );
- 
-const fnt90s = ["family1", "family2", "family3", "family4"];
+ const fnt90s = ["family1", "family2", "family3", "family4"];
+  const collage2 = ["js/collage2/90sactor1.png", "js/collage2/90sactor2.png","js/collage2/90sactor3.png", "js/collage2/90sactor4.png", "js/collage2/90sactor5.png", "js/collage2/90sactor6.png", "js/collage2/90sactor7.png", "js/collage2/90sactor8.png","js/collage2/90sactor9.png", "js/collage2/90sactor10.png"];
 
 function generate90() {
 
@@ -118,13 +94,45 @@ input90.style.opacity= '1';
 
 
 
-    var title=document.getElementById('title90');
+    var title2=document.getElementById('title90');
     
     var random= Math.floor(Math.random()*fnt90s.length);
     console.log(random);
     console.log (fnt90s[random]);
   
-    title.style.fontFamily= fnt90s[random];
+    title2.style.fontFamily= fnt90s[random];
  
 }
 
+const bgInner = document.querySelector('#bg-gradient .inner');
+document.addEventListener('mousemove', evt => {
+    const x = evt.clientX;
+    const y = evt. clientY;
+    //console.log(x, y);
+    const percent = x / window.innerWidth;
+    console.log(percent);
+    bgInner.setAttribute('style', `left: -${percent * 100}%`);
+});
+
+var count=0 
+function toggleImage2() {
+    
+
+count=count+1
+if (count>collage2.length){
+    count=0;
+}
+var imgElement2 = document.getElementById('toggleImage2');
+imgElement2.setAttribute("src", collage2[count]);}
+
+// 80s code
+
+const border80s = ["blue", "red", "purple", "orange"]; 
+
+function generate80(){
+var border80= document.getElementById("border");
+    var random= Math.floor(Math.random()*border80s.length);
+    console.log(random) ;
+    console.log(border80s[random]);
+    border80.style.border = border80s[random];
+}

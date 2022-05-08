@@ -1,4 +1,6 @@
 body{
+  background-color: black;
+  justify-content: center;
   overflow: hidden}
   
   ;@font-face {
@@ -49,15 +51,22 @@ body{
 }
 
 
-
-  
+/* 
+  60s background  */
+ 
   #background{
+    display: block;
     z-index: -1;
     position: absolute;
     top: 10px; 
+    
   height:100%;
   width: 100%;
-margin: 2%; 
+  
+  margin-left: auto;
+  margin-right: auto;
+
+ 
     /* top: 200px; 
     height:90%;
     width: 40%;
@@ -81,24 +90,33 @@ padding: 5%; */
   height:90%;
   width: 95%;
 
+  position: absolute;
+  top: 47px; 
+  
 
+
+margin-left: 50px;
+margin-right: auto;
 
 
 }
 
 #textblock-color{
 position: absolute;
-    top: 580px; 
-    height: 25%;
-    width: 93%;
-    margin: auto;
+    top: 700px; 
+    height: 18%;
+    width: 95%;
+    
     text-align: center;
     justify-content: center;
-   margin: 5%;
-  
+display: block;
+    margin-left: auto;
+    margin-right: auto;
   z-index: 5;
+  left: 58px;
+
 }
-#title{
+#title60{
   font-size: 70px;
   height: 50%;
     width: 70%;
@@ -110,78 +128,66 @@ opacity: 0;
 
 }
 
-#title:focus {
+#title60:focus {
 background-color: grey;
 }
-#text{
-  position: fixed;
-  left: 16%;
-  top: 30px;
-    
-    text-shadow: -3px 1px 0px rgba(225,18,18,0.79);
-    color: yellow;
-    stroke: blue;
-  stroke-width: 3px;
-  font: bold 122px Helvetica, Arial, Sans-Serif;
-  text-shadow: 1px 1px #fe4902, 
-               2px 2px #fe4902, 
-               3px 3px #fe4902;
-  -webkit-transition: all 0.12s ease-out;
-  -moz-transition:    all 0.12s ease-out;
-  -ms-transition:     all 0.12s ease-out;
-  -o-transition:      all 0.12s ease-out;
-}
 
-#text:hover {
-  position: fixed; 
-  top: 40px; 
-  left: 25%; 
-  text-shadow: 1px 1px #fe4902, 
-               2px 2px #fe4902, 
-               3px 3px #fe4902, 
-               4px 4px #fe4902, 
-               5px 5px #fe4902, 
-               6px 6px #fe4902;
-}
+
 button {
   z-index: 4;
   position: fixed;
-  top: 10px;
+  top: -8px;
 
+  font-size: 30px;
   
-  
-  color: red;
- border: 0px;
-background-color: transparent;
+  color: black;
 
- border-left: 20px solid transparent;
- border-right: 20px solid transparent;
+
+border-color: transparent;
+
  
- border-bottom: 20px solid black;
-
+background-color: transparent;
+ height: 50px;
+ width: 50px;
+ border-radius: 50%;
 }
+button:hover {
+  font-size: 60px;
+  color: white;
+}
+
 #sixties {
 
   left: 10%;
 
+
+}
+
+#eighties{
+  
+  left: 20%;
 }
 
 #nineties{
-
-  left: 20%;
+  
+  left: 30%;
 }
   
-  button:hover {
-    font-size: 50px;
-  }
 
+
+ 
 #bg-gradient {
   position: absolute;
-    top: 200px; 
-    height:90%;
-    width: 40%;
+  position: absolute;
+  top: 10px; 
+  left: 50px;
+height:100%;
+width: 90%;
+
+margin-left: auto;
+margin-right: auto;
     z-index: -5;
-     margin-left: 25%; 
+  
     overflow: hidden;
 }
 
@@ -193,7 +199,7 @@ background-color: transparent;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -1;
+  z-index: -5;
 }
 
 
@@ -216,39 +222,108 @@ background-color: transparent;
 
 #background1{
   z-index: -1;
-  position: absolute;
-  top: 100px; 
-height:100%;
-width: 100%;
-margin: 2%; 
+ 
   /* top: 200px; 
   height:90%;
   width: 40%;
 margin-left: 25%;  */
+position: absolute;
+top: 10px; 
+display: block;
+height: 100%;
+width: 95%;
+left: 47px;
 
+margin-left: auto;
+margin-right: auto;
 }
 
 #title90{
   position: absolute;
   font-size: 100px;
-  height: 10%;
+  height: 20%;
     width: 80%;
     background-color: transparent;
     border: 0px;
     color: black;
-    padding: 7%;
+    text-align: center;
     opacity: 0;
-    top: 750px;
-    left: 125px;
+    top: 735px;
+    left: 180px;
 
     background: linear-gradient(red, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
-    
+    z-index: 3;
+    mix-blend-mode: darken;
 }
 
 #title90:focus {
 background-color: grey;
 }
 
+#toggleImage2{
+
+
+  position: absolute;
+top: 10px; 
+display: block;
+height: 100%;
+width: 95%;
+left: 47px;
+
+margin-left: auto;
+margin-right: auto;
+opacity: 1;
+  z-index: 1;
+  /* mix-blend-mode: screen; */
+ 
+}
+
+/* 80s css */
+
+#background80s{
+
+display: block;
+z-index: -1;
+position: absolute;
+top: 10px; 
+
+height:100%;
+width: 100%;
+
+margin-left: auto;
+margin-right: auto;
+}
+
+#border {
+  height:95%;
+width: 95%;
+border-radius: 2px;
+color: green;
+
+display: block;
+position: absolute;
+top: 20px;
+margin-left: auto;
+margin-right: auto;
+z-index: 7;
+border-color: aqua;
+}
+
+#title80{
+  font-size: 70px;
+  height: 50%;
+    width: 70%;
+    background-color: transparent;
+    border: 0px;
+    color: black;
+    padding: 10%;
+opacity: 0;
+
+}
+
+#title60:focus {
+background-color: grey;
+}

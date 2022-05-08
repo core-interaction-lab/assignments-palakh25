@@ -1,0 +1,41 @@
+.poster-img {
+    position: fixed;
+    height: 1100px;
+    width: 1000px;
+top:0px;
+left:800px;
+right: 100px;
+   z-index: -1;
+ 
+
+
+}
+
+.button {
+    font-family: "AndeloMo";
+    font-size: 50px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    opacity: 0;
+   
+
+}
+
+#prevButton {
+ position: fixed;
+ top: 900px;
+ left: 800px;
+
+   transform: rotate(135deg);
+   -webkit-transform: rotate(135deg);
+}
+
+#nextButton {
+    position: fixed;
+    top: 900px;
+    left:1250px;
+transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
