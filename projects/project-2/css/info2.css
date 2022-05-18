@@ -1,0 +1,348 @@
+@font-face {
+    font-family: "Eu Alonira";
+    src: url("Eu Alonira.otf") format("opentype");
+  
+  
+  }
+body{
+    /* display: flex; */
+    justify-content: center; 
+
+   
+    background:  radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  
+   font-family: "Eu Alonira";
+   /* animation: mymove 15s ; */
+  
+  
+   }
+   
+   a {
+       text-decoration: none;
+       color: black;
+       font-size: 50px;
+       position: absolute;
+       left: 20%;
+       right: 20%;
+       top: 10%;
+       mix-blend-mode: color-burn;
+   }
+   
+
+   button{
+       border: none;
+       text-decoration: none;
+      background-color: transparent;
+      height: 30%;
+      width: 30%;
+      font-size: 300px;
+      animation-name: b2;
+      animation-duration: 2s;
+      animation-delay: 1s;
+      opacity:0;
+      animation-fill-mode: forwards;
+      font-family: "Eu Alonira";
+      mix-blend-mode: color-burn;
+      color:  linear-gradient(red, #B300CF );
+
+    }
+    
+    @keyframes b2{
+      from {opacity:0}
+      to {opacity:1}
+    }
+   
+.para{
+    margin-left: 60%;
+    margin-right: 10%;
+    justify-content: center;
+}
+
+   .nav{
+       font-family: "Eu Alonira";
+   }
+   
+   
+   
+   #paragraph1 p {
+    opacity: 0;
+    animation: fade-in 2s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+   
+   #paragraph1 {
+    opacity: 0;
+   
+
+
+}
+
+
+#paragraph2 {
+    opacity: 0;
+   
+
+
+}
+
+#paragraph2 p {
+    opacity: 0;
+    animation: fade-in 2s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+#paragraph3 {
+    opacity: 0;
+   
+
+
+}
+
+#paragraph3 p {
+    opacity: 0;
+    animation: fade-in 2s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+#paragraph4 {
+    opacity: 0;
+   
+
+
+}
+
+#paragraph4 p {
+    opacity: 0;
+    animation: fade-in 2s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+#paragraph5 {
+    opacity: 0;
+   
+
+
+}
+
+#paragraph5 p {
+    opacity: 0;
+    animation: fade-in 2s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+#paragraph6 {
+    opacity: 0;
+   
+
+
+
+}
+
+#paragraph6 p {
+    opacity: 0;
+    animation: fade-in 2s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  #paragraph7 p {
+    opacity: 0;
+    animation: fade-in 2s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }#paragraph7 {
+    opacity: 0;
+   
+
+
+}
+
+#paragraph8 p {
+    opacity: 0;
+    animation: fade-in 2s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+#paragraph8 {
+    opacity: 0;
+   
+
+
+}#paragraph9 {
+    opacity: 0;
+   
+
+
+}
+#paragraph9 p {
+    opacity: 0;
+    animation: fade-in 2s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+#paragraph10 {
+    opacity: 0;
+   
+
+
+}
+#paragraph10 p {
+    opacity: 0;
+    animation: fade-in 2s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  #paragraph11 {
+    opacity: 0;
+   
+
+
+}
+#paragraph11 p {
+    opacity: 0;
+    animation: fade-in 2s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  #paragraph12 {
+    opacity: 0;
+   
+
+
+}
+#paragraph12 p {
+    opacity: 0;
+    animation: fade-in 2s forwards;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  #end{
+      font-size: 50px;
+      position: absolute;
+      left: 30%;
+      right: 30%;
+  }
+
+  @media only screen and (max-width: 600px) {
+    a{
+        margin-top: 8%;
+        top: 20px;
+        height:450%;
+        width:60%;
+        font-size: 500%;
+        line-height: 200%;
+    }   
+    .button{
+        font-size: 30px;
+    }
+
+    #nav1{
+        top: 500px;
+    }
+   }
+
+   
+  #back1{
+    position: absolute;
+   top: 50px;
+   left:2%;
+   font-size: 12px;
+  }
+
+/* animation: mymove 15 s ;
+}
+
+@keyframes mymove {
+    0% {background-color: linear-gradient(to top, #B300CF 0%, #CF1512 100%);}
+  15% {background-color:linear-gradient(to top, #B300CF 0%, #CF199E 100%);}
+  30% {background-color:linear-gradient(to top, #B300CF 0%, #1540CF 100%);}
+  45%{ background-color:linear-gradient(to top, #3011CF 0%, #04CFC1 100%);}
+  60% {background-color: linear-gradient(to top, #B300CF 0%, #04CFC1 100%);}
+75%{background-color:   linear-gradient(to top, #FFC830 0%, #AC00CF 100%);}
+  100%{background-color: linear-gradient(to top, #FFC830 0%, #CF0A66 100%);} */

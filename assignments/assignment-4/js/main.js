@@ -1,6 +1,6 @@
 const albumContainer = document.getElementById ('album-container');
 
-
+const slideshowContainer = document.getElementById ('slideshow-container');
 const fetchContent =  (fetchUrl) => {
    return fetch(fetchUrl).then(data => data.json());
 };
@@ -47,7 +47,7 @@ const fetchContent =  (fetchUrl) => {
 
 const buildAlbums = album => {
     album.forEach(item => {
-        console.log(item);
+        //console.log(item);
         const imgEl = document.createElement('img');
         imgEl.setAttribute ('src', item.images[1].url);
         albumContainer.append(imgEl);
@@ -157,34 +157,35 @@ const buildAlbums = album => {
 //  };
  
 
-const buildSlideshow = (album) => {
-    console.log(album);
-    console.log(buildSlide(album.images[0]));
+const buildSlideshow = (albums) => {
+    console.log(albums);
+    
   
-    const firstAlbum = buildSlide(album.images[0]);
+    const firstAlbum = buildSlide(albums[0]);
+    console.log(firstAlbum);
     slideshowContainer.append(firstAlbum);
   
     let currentAlbum = 0;
   
     prevButton.addEventListener('click', () => {
         if (currentAlbum=== 0) {
-            currentAlbum = album.length - 1;
+            currentAlbum = albums.length - 1;
         } else {
             currentAlbum = currentAlbum - 1;
         }
   
-        const AlbumRecord = album[currentAlbum];
+        const AlbumRecord = albums[currentAlbum];
         swapSlide(AlbumRecord);
     });
   
     nextButton.addEventListener('click', () => {
-        if (currentAlbum === album.length - 1) {
+        if (currentAlbum === albums.length - 1) {
             currentAlbum = 0;
         } else {
             currentAlbum = currentAlbum + 1;
         }
   
-        const AlbumRecord = album[currentAlbum];
+        const AlbumRecord = albums[currentAlbum];
         swapSlide(AlbumRecord);
     });
   };
@@ -196,16 +197,18 @@ const buildSlideshow = (album) => {
     slideshowContainer.append(slideEl);
   };
   
-  const buildSlide = (album) => {
+const buildSlide = (album) => {
+    console.log(album)
     const albumContainer = document.createElement('article');
     if (album.images) {
-        console.log(album.images[0].url);
+        console.log(album.images[1].url);
         const posterImg = document.createElement('img');
-        posterImg.src = album.images[0].url;
+        posterImg.src = album.images[1].url;
         posterImg.classList.add('poster-img');
         posterImg.id = 'poster-img-id';
         albumContainer.append(posterImg);
     };
+    return albumContainer;
 }
 
 const url1= 'https://interactionlab.space/data/assignment-4-1.json';
@@ -215,7 +218,7 @@ const url1= 'https://interactionlab.space/data/assignment-4-1.json';
 
 const main = async () => {
 const response1 = await fetchContent(url1);
-buildAlbums(response1.items);
+//buildAlbums(response1.items);
 buildSlideshow(response1.items);
 
 // const response2 = await fetchContent(url2);

@@ -1,7 +1,9 @@
 body{
-  background-color: black;
+  background-color: grey;
   justify-content: center;
   overflow: hidden}
+
+  
   
   ;@font-face {
   font-family: "adobe";
@@ -49,16 +51,37 @@ body{
   font-family: "family4";
   src: url("fonts90/4.ttf");
 }
-
-
+@font-face {
+  font-family: "family5";
+  src: url("fonts-icon/family5.ttf");
+}
+@font-face {
+  font-family: "family6";
+  src: url("fonts-icon/family6.ttf");
+}
+@font-face {
+  font-family: "family7";
+  src: url("fonts-icon/family7.otf");
+}
+@font-face {
+  font-family: "family8";
+  src: url("fonts-icon/family8.ttf");
+}@font-face {
+  font-family: "family9";
+  src: url("fonts-icon/family9.ttf");
+}
 /* 
   60s background  */
- 
+ #border{
+   opacity: 0;
+   width: 100%;
+   height: 100%;
+ }
   #background{
     display: block;
-    z-index: -1;
+    z-index: 4;
     position: absolute;
-    top: 10px; 
+     
     
   height:100%;
   width: 100%;
@@ -84,7 +107,7 @@ margin: auto;
 text-align: center;
 justify-content: center;
 padding: 5%; */
-    z-index: 1;
+    z-index: 6;
  opacity: 1;
   mix-blend-mode: difference;
   height:90%;
@@ -103,7 +126,7 @@ margin-right: auto;
 
 #textblock-color{
 position: absolute;
-    top: 700px; 
+    top: 76%; 
     height: 18%;
     width: 95%;
     
@@ -112,8 +135,8 @@ position: absolute;
 display: block;
     margin-left: auto;
     margin-right: auto;
-  z-index: 5;
-  left: 58px;
+  z-index: 50000;
+  left: 50px;
 
 }
 #title60{
@@ -125,6 +148,7 @@ display: block;
     color: black;
     padding: 10%;
 opacity: 0;
+z-index:10000000000;
 
 }
 
@@ -134,49 +158,87 @@ background-color: grey;
 
 
 button {
-  z-index: 4;
+  z-index: 10000000000000000000000000000000000777777777777777;
   position: fixed;
-  top: -8px;
+  top: -5px;
 
-  font-size: 30px;
-  
+  font-size: 40px;
+
   color: black;
 
-
+font-family: "family9";
 border-color: transparent;
 
  
 background-color: transparent;
- height: 50px;
- width: 50px;
- border-radius: 50%;
+ height: 100px;
+ width: 100px;
+ 
+
 }
 button:hover {
-  font-size: 60px;
   color: white;
+  font-size: 30px;
+  
 }
 
 #sixties {
 
-  left: 10%;
+  left: 15%;
 
 
 }
 
-#eighties{
+#bg{
+  left: 0;
+  top: 20px;
   
-  left: 20%;
+}
+#text60{
+  left: 0;
+  top: 400px;
+
+}
+
+#print2 {
+  left: 0;
+  top: 50px;
+  
+}
+
+#eighties{
+
+  left: 25%;
 }
 
 #nineties{
   
-  left: 30%;
+  left:35%;
 }
   
+#refresh{
+  left: 5%;
+  color: white;
+}
+#custom{
+  left:45% ;
+}
+a{
+  text-decoration: none;
+  font-size: 30px;
+  
+  color: black;
+}
+a:hover {
+  color: white;
+  font-size: 30px;
+  
+}
+
 
 
  
-#bg-gradient {
+/* #bg-gradient {
   position: absolute;
   position: absolute;
   top: 10px; 
@@ -186,9 +248,10 @@ width: 90%;
 
 margin-left: auto;
 margin-right: auto;
-    z-index: -5;
+    z-index: 10;
   
     overflow: hidden;
+   
 }
 
 #bg-gradient .inner {
@@ -199,27 +262,68 @@ margin-right: auto;
   position: absolute;
   top: 0;
   left: 0;
-  z-index: -5;
-}
+  z-index: 10;
+  opacity: 0;
+} */
 
 
 
 
 #toggleImage{
-  position: absolute;
-
-  /* height: 1200px;
-  width: 700px; */
- opacity: 0;
-  z-index: 4;
  
-  height:90%;
-  width: 90%;
-  padding: 5%;
-  overflow-x: scroll;
+
+
+
+opacity: 0;
+  z-index: 10993333333;
+  
+  height:60%;
+  width: 55%;
+
+  position: absolute;
+  top: 47px; 
+  
+
+
+margin-left: 43%;
+margin-right: 50px;
 }
 
+#ninetiesbg{
+  top: 100px;
+  left: 10px;
+ 
+}
+#ninetiesimg{
+  top: 180px;
+  left: 10px;
 
+}
+
+#ninetiestext{
+  top: 260px;
+  left: 10px;
+
+}
+#bg{
+  top: 100px;
+  left: 10px;
+ 
+}
+#print2{
+  top: 180px;
+  left: 10px;
+ 
+
+}
+#img{
+  top: 260px;
+  left: 10px; 
+}
+
+#border3{
+  opacity: 0;
+}
 #background1{
   z-index: -1;
  
@@ -231,16 +335,16 @@ position: absolute;
 top: 10px; 
 display: block;
 height: 100%;
-width: 95%;
-left: 47px;
+width: 105%;
 
-margin-left: auto;
-margin-right: auto;
+
+
 }
+
 
 #title90{
   position: absolute;
-  font-size: 100px;
+  font-size: 130px;
   height: 20%;
     width: 80%;
     background-color: transparent;
@@ -248,15 +352,15 @@ margin-right: auto;
     color: black;
     text-align: center;
     opacity: 0;
-    top: 735px;
+    top: 70%;
     left: 180px;
 
     background: linear-gradient(red, yellow);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-transform: uppercase;
-    z-index: 3;
-    mix-blend-mode: darken;
+    z-index: 10000;
+   
 }
 
 #title90:focus {
@@ -270,18 +374,24 @@ background-color: grey;
 top: 10px; 
 display: block;
 height: 100%;
-width: 95%;
-left: 47px;
+width: 100%;
+left: 0px;
 
 margin-left: auto;
 margin-right: auto;
-opacity: 1;
+opacity: 0;
   z-index: 1;
-  /* mix-blend-mode: screen; */
+  
+   
  
 }
 
+
 /* 80s css */
+
+#border4{
+  opacity: 0;
+}
 
 #background80s{
 
@@ -297,33 +407,170 @@ margin-left: auto;
 margin-right: auto;
 }
 
-#border {
+#border1980s {
   height:95%;
 width: 95%;
-border-radius: 2px;
-color: green;
-
+border-width: 5px;
+border-style: solid;
+border-radius: 2%;
 display: block;
 position: absolute;
 top: 20px;
 margin-left: auto;
 margin-right: auto;
-z-index: 7;
-border-color: aqua;
+z-index: 700000;
+
+opacity: 0;
+padding: 1%;
 }
 
 #title80{
-  font-size: 70px;
+  font-size: 90px;
   height: 50%;
     width: 70%;
     background-color: transparent;
     border: 0px;
-    color: black;
+    color:  linear-gradient(red, yellow);
     padding: 10%;
 opacity: 0;
-
+z-index: 999;
+position : absolute;
 }
 
-#title60:focus {
+#title80:focus {
 background-color: grey;
 }
+
+#img80s{
+
+  position: absolute;
+
+  /* height: 1200px;
+  width: 700px; */
+ opacity: 0;
+  z-index: 99999999;
+ 
+  height:100%;
+  width: 100%;
+ 
+  overflow-x: scroll;
+  top: 0px;
+}
+#bg80s{
+  position: absolute;
+
+  /* height: 1200px;
+  width: 700px; */
+ opacity: 0;
+  z-index: 8;
+ 
+  height:100%;
+  width: 100%;
+  
+  left: 0%;
+  overflow-x: scroll;
+  top: 0px;
+}
+#eightiesimg{
+  top: 180px;
+  left: 10px;
+  z-index: 8888888888;
+}
+
+#eightiesbg{
+  top: 260px;
+  left: 10px;
+  z-index: 888888888;
+}
+#eightiesborder {
+
+  top: 340px;
+  left: 10px;
+  z-index: 8888888888;
+}
+
+#eightiestext{
+  top: 400px;
+  left: 0px;
+}
+svg{
+  color: grey;
+  width: 50px;
+  height: 50px;
+  mix-blend-mode:difference;
+}
+p{
+  font-size: 15px;
+  font-family: "";
+  opacity: 0;
+}
+a{
+  z-index: 3999999;
+}
+
+#gifs{
+
+
+  position: absolute;
+top: 10px; 
+display: block;
+height: 100%;
+width: 100%;
+left: 0px;
+
+margin-left: auto;
+margin-right: auto;
+opacity: 0;
+  z-index: 19;
+  
+   
+ 
+}
+
+#gif2000{
+  top: 260px;
+  left: 10px;
+
+
+}
+
+#text2000{
+  top: 380px;
+  left: 10px;
+
+}
+#title2000{
+  position: relative;
+  font-size: 130px;
+  height: 20%;
+    width: 80%;
+    background-color: transparent;
+    border: 0px;
+    color: black;
+    text-align: center;
+    opacity: 0;
+    top: 50%;
+    left: 180px;
+
+    background: linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    z-index: 1099999999000;
+   
+}
+
+#title2000:focus {
+background-color: grey;
+}
+
+#twothousand{
+  opacity: 0;
+}
+
+#reel{
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
+}
+

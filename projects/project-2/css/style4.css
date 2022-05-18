@@ -623,3 +623,13 @@ color: orange;
 margin-top: 60%;
 opacity: 0.6;
 }
+#next{
+  position: absolute;
+ top: 50px;
+ left:95%;
+}
+#back1{
+  position: absolute;
+ top: 50px;
+ left:2%;
+}
