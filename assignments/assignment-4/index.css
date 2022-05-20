@@ -1,7 +1,25 @@
-body{
+  
+  @font-face {
+    font-family: "font1.ttf";
+    src: url("font1.otf");
+  
+  
+  }
+  body{
   background: white;
 
-}.poster-img {
+}
+.heading{
+  font-family: "font1.ttf";
+font-size: 80px;
+position: absolute;
+margin-left: 30%;
+margin-right: 30%;
+top: 80px;
+}
+
+
+.poster-img {
     position: fixed;
     height: 700px;
     width: 600px;
@@ -51,7 +69,7 @@ margin-right: 30%;
 }
 
 
-img{
+.airpods{
   height: 100px;
   width: 60px;
 }
@@ -62,3 +80,10 @@ img{
 margin-right: 40%;
  
 } */
+
+.box{
+  height: 300px;
+  width: 300px;
+  position:absolute;
+  top: 70%;
+}
