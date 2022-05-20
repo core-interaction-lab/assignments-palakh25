@@ -1,10 +1,13 @@
-.poster-img {
+body{
+  background: white;
+
+}.poster-img {
     position: fixed;
-    height: 600px;
-    width: 500px;
-top:100px;
-margin-left: auto;
-margin-right: auto;
+    height: 700px;
+    width: 600px;
+top:200px;
+margin-left: 40%;
+margin-right: 40%;
    z-index: -1;
  
 
@@ -13,30 +16,49 @@ margin-right: auto;
 
 .button {
     font-family: "AndeloMo";
-    font-size: 50px;
+    font-size: 30px;
   
-    border-width: 0 3px 3px 0;
+  
     display: inline-block;
     padding: 3px;
     /* opacity: 0; */
-   color:black;
+
+   position: absolute;
+   top:300px;
+margin-left: 40%;
+margin-right: 40%;
+border-color: transparent;
+background-color: transparent;
 
 }
 
-#prevButton {
- /* position: fixed;
- top: 900px;
- left: 800px;
+ #prevButton {
+  position: fixed;
+ top: 450px;
+ margin-left: 30%;
+ margin-right: 60%;
 
-   transform: rotate(135deg);
-   -webkit-transform: rotate(135deg); */
+ }
+
+
+#nextButton{
+     position: fixed;
+    top: 450px;
+    margin-left: 70%;
+margin-right: 30%;
+  
 
 }
 
-#nextButton {
-    /* position: fixed;
-    top: 900px;
-    left:1250px;
-transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg); */
+
+img{
+  height: 100px;
+  width: 60px;
 }
+/* #name{
+  position: fixed;
+  top: 1200px;
+  margin-left: 50%;
+margin-right: 40%;
+ 
+} */

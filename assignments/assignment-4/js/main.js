@@ -52,12 +52,7 @@ const buildAlbums = album => {
         imgEl.setAttribute ('src', item.images[1].url);
         albumContainer.append(imgEl);
 
-        // const nameEl = document.createElement('p');
-        // nameEl.innerHTML = item.name;
-        // nameEL.classList.add("name");
-
-       
-        // albumContainer.append(nameEl);
+        
 
 
         const container = document.createElement('article');
