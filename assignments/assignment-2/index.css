@@ -11,7 +11,7 @@ body{
   color: white;
   border-radius: 5px;
   display: inline-block;
-  margin: 10px;
+  margin: 20px;
   font-size: 18px;
   text-transform: uppercase;
   font-weight: 600;
@@ -46,6 +46,7 @@ h1{
 position:absolute;
 top:10px;
 left:50px;
+margin-left: 40px;
 }
 .primary-header{
 
@@ -54,7 +55,14 @@ left:50px;
   flex-basis:50px;
 flex-direction: row;
 }
-
+ul{
+  margin: 40px;
+  text-decoration: none;
+}
+a{
+  text-decoration: none;
+color: black;
+}
 
 .menu {
   display: flex;
@@ -74,10 +82,20 @@ list-style-type : none;
 .menu ul li{
   padding: 10px;
 }
-.wrap{
+section{
   display: flex; 
+flex-direction: row;
 }
+
 img{
+ display: flex;
+  width:500px;
+  height:450px;
+ margin: 70px;
+
+}
+
+/* img{
   position:absolute;
   left:50px;
   top:200px;
@@ -85,14 +103,12 @@ img{
   height:350px;
  
 
-}
+} */
+
 .color-schemes {
-  position:absolute;
-  left:500px;
-  top:200px;
-  right:50px;
-    margin: 0;
-    padding: 5px;
+
+    margin: 70px;
+  
     background-color: lightgray;
   }
   
@@ -117,5 +133,26 @@ img{
 
  
 
+  @media screen and (max-width: 600px) {
+   section{
+     flex-direction: column;
+   }
+   h1{
+     font-size:50px;
+     margin-left: 20px;
+   }
+.color-schemes{
+  margin: 20px;
+}
+img{
+  margin:20px;
+}
   
- 
+  ul{
+margin:100px;
+
+  }
+  .menu{
+    top:-10px;
+  }
+}
